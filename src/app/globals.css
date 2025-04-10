@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #E7E7E3;
+  --foreground: #E7E7E3;
 }
 
 @theme inline {
@@ -14,10 +14,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #E7E7E3;
+    --foreground: #E7E7E3;
   }
 }
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('/fonts/Righteous/Righteous-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 
 body {
   background: var(--background);
