@@ -115,13 +115,9 @@ export default function AdminView() {
     averageRating: 4.7,
   };
 
-  // Handler for form input changes
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-
-
   // Handler for form submission
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleSubmit = (e: { preventDefault: () => void; }) => {
+  const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     const newId =
       products.length > 0 ? Math.max(...products.map((p) => p.id)) + 1 : 1;
@@ -135,7 +131,6 @@ export default function AdminView() {
       image: "/product/zapato.svg", // Default image
       sales: 0,
     };
-
 
     setProducts([...products, productToAdd]);
 

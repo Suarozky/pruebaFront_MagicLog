@@ -15,19 +15,19 @@ export default function PrincipalNavbar() {
             {/* Izquierda */}
             <div className="flex items-center gap-5 w-1/3 justify-start">
               <Link href="/" className="text-gray-800 text-lg font-semibold">
-                New Drops
+                Home
               </Link>
               <Link
-                href="/about"
+                href="/product"
                 className="text-gray-800 text-lg font-semibold"
               >
-                Men
+                product
               </Link>
               <Link
-                href="/services"
+                href="/store"
                 className="text-gray-800 text-lg font-semibold"
               >
-                Women
+                Store
               </Link>
             </div>
 
@@ -52,7 +52,7 @@ export default function PrincipalNavbar() {
                 <HiUser className="text-gray-800 text-xl" />
               </Link>
               <Link
-                href="/services"
+                href="/profile"
                 className="text-gray-800 text-lg font-semibold"
               >
                 <div className="h-8 w-8 bg-[#FFA52F] rounded-full flex justify-center items-center text-sm">
