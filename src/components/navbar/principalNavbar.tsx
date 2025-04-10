@@ -82,13 +82,13 @@ export default function PrincipalNavbar() {
 
             {/* Menú hamburguesa (opcional) o iconos */}
             <div className="flex items-center gap-4">
-              <Link href="/" className="text-gray-800">
+              <Link href="/store" className="text-gray-800">
                 <IoMdSearch className="text-gray-800 text-lg" />
               </Link>
               <Link href="/login" className="text-gray-800">
                 <HiUser className="text-gray-800 text-lg" />
               </Link>
-              <Link href="/services" className="text-gray-800">
+              <Link href="/profile" className="text-gray-800">
                 <div className="h-6 w-6 bg-[#FFA52F] rounded-full flex justify-center items-center text-xs">
                   0
                 </div>
