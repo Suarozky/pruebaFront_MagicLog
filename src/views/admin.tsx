@@ -121,7 +121,7 @@ export default function AdminView() {
 
   // Handler for form submission
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     const newId =
       products.length > 0 ? Math.max(...products.map((p) => p.id)) + 1 : 1;

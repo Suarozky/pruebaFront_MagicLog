@@ -115,13 +115,15 @@ export default function SellerView() {
   };
 
   // Handler for form input changes
-  const handleInputChange = (e) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleInputChange = (e: any) => {
     const { name, value } = e.target;
     setNewProduct({ ...newProduct, [name]: value });
   };
 
   // Handler for form submission
-  const handleSubmit = (e) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     const newId =
       products.length > 0 ? Math.max(...products.map((p) => p.id)) + 1 : 1;
