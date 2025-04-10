@@ -32,7 +32,7 @@ export default function ProductView() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-blue-50 to-white mt-10 rounded-4xl">
+    <div className="w-full min-h-screen bg-gradient-to-b from-blue-50 to-white mt-10 rounded-4xl scale-95">
       {/* Barra de navegación */}
       <div className="w-full px-6 py-4 bg-white shadow-sm  rounded-t-4xl">
         <Link

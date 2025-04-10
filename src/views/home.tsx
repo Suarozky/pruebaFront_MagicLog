@@ -16,7 +16,7 @@ export default function HomeView() {
         descriptionText1="Nike introducing the new air max for "
         descriptionText2="everyone's comfort"
       />
-      <div className="text-6xl flex justify-between items-end text-gray-900 font-bold  mt-5 ">
+      <div className="text-5xl flex justify-between items-end scale-90 text-gray-900 font-bold  mt-5 m-4">
         <div className="flex flex-col ">
           <span style={{ fontFamily: "Righteous" }}>DROPS</span>
         </div>

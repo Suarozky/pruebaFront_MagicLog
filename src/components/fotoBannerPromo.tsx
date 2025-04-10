@@ -17,7 +17,7 @@ export default function FotoBannerPromo({
   descriptionText2,
 }: FotoBannerPromoProps) {
   return (
-    <div className="flex justify-center items-center mt-5 px-4">
+    <div className="flex justify-center items-center mt-5 px-4 scale-95">
       <div
         className="w-full max-w-[1200px] h-[500px] md:h-[600px] lg:h-[700px] bg-cover bg-center shadow-sm rounded-3xl flex flex-col items-center justify-center"
         style={{ backgroundImage: `url(${image1})` }}

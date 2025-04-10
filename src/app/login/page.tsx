@@ -13,7 +13,7 @@ export default function Login() {
 
       <button
         onClick={toggleAuthMode}
-        className="text-blue-600 underline mt-40 sm:mt-0 md:mt-32 lg:mt-0"
+        className="text-blue-600 underline mt-52 sm:mt-10 md:mt-44 lg:mt-10"
       >
         {isLogin
           ? "¿No tienes una cuenta? Regístrate"

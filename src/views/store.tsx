@@ -161,7 +161,7 @@ export default function StoreView() {
   };
 
   return (
-    <div className="min-h-screen w-full">
+    <div className="min-h-screen w-full scale-95">
       <div className="max-w-7xl mx-auto px-4 py-8">
         <header className="mb-8">
           <h1 className="text-3xl font-bold text-gray-800 mb-2">

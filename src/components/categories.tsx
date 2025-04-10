@@ -5,7 +5,7 @@ import { IoMdArrowForward } from "react-icons/io";
 
 export default function Categories() {
   return (
-    <div className="flex flex-col justify-between items-center mt-5 bg-gray-900 w-full rounded-3xl shadow-sm px-4 py-10">
+    <div className="flex flex-col justify-between items-center mt-5 scale-90 bg-gray-900 rounded-3xl shadow-sm px-20 py-10">
       {/* Título + Botones de navegación */}
       <div className="flex flex-col sm:flex-row w-full justify-between items-center">
         <span
@@ -27,8 +27,8 @@ export default function Categories() {
       {/* Categorías */}
       <div className="flex flex-col lg:flex-row gap-6 items-center justify-center mt-10 w-full">
         {/* Item 1 */}
-        <div className="max-w-[570px] w-full">
-          <div className="bg-[#F6F6F6] rounded-t-3xl overflow-hidden h-[350px] sm:h-[450px]">
+        <div className="max-w-[500px] w-full">
+          <div className="bg-[#F6F6F6] rounded-t-3xl overflow-hidden h-[350px] sm:h-[400px]">
             <img
               src="/product/zapatoCategory.svg"
               alt="zapato"
@@ -49,8 +49,8 @@ export default function Categories() {
         </div>
 
         {/* Item 2 */}
-        <div className="max-w-[570px] w-full">
-          <div className="bg-[#ECEEF0] rounded-t-3xl overflow-hidden h-[350px] sm:h-[450px]">
+        <div className="max-w-[500px] w-full">
+          <div className="bg-[#ECEEF0] rounded-t-3xl overflow-hidden h-[350px] sm:h-[400px]">
             <img
               src="/product/zapatoCategory2.svg"
               alt="zapato"

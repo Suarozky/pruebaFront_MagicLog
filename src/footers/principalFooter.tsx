@@ -6,7 +6,7 @@ import { PiTiktokLogoFill } from "react-icons/pi";
 
 export default function PrincipalFooter() {
   return (
-    <div className="bg-[#4A69E2] mt-10 rounded-t-4xl rounded-b-4xl">
+    <div className="bg-[#4A69E2] mt-16 rounded-t-4xl rounded-b-4xl scale-95 ">
       {/* Upper Section */}
       <div className="max-w-[1250px] mx-auto flex flex-col md:flex-row h-auto md:h-72 bg-[#4A69E2] p-6 md:p-10 rounded-t-4xl">
         {/* Left Content */}

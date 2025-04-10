@@ -20,7 +20,7 @@ export default function LetrasGigantes({
         >
           <span
             className="
-            text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-[150px] xl:text-[225px]
+            text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-[190px] xl:text-[225px]
             font-bold leading-none tracking-tighter text-gray-900
           "
           >

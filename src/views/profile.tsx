@@ -54,7 +54,7 @@ export default function ProfileView() {
   });
 
   return (
-    <div className="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8">
+    <div className="max-w-7xl mx-auto mt-10 px-4 sm:px-6 lg:px-8 scale-95">
       {/* Profile Header */}
       <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl shadow-xl overflow-hidden">
         <div className="p-6 flex items-center gap-6">
