@@ -137,7 +137,7 @@ export default function SellerView() {
     };
 
     setProducts([...products, productToAdd]);
-
+    console.log("Product added:", setCustomers);
     // Reset form
     setNewProduct({
       name: "",

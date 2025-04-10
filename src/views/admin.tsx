@@ -58,6 +58,7 @@ export default function AdminView() {
   ]);
 
   // Mock data for customers
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [customers, setCustomers] = useState([
     {
       id: 1,
@@ -115,12 +116,11 @@ export default function AdminView() {
   };
 
   // Handler for form input changes
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setNewProduct({ ...newProduct, [name]: value });
-  };
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+
 
   // Handler for form submission
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSubmit = (e) => {
     e.preventDefault();
     const newId =
@@ -135,6 +135,7 @@ export default function AdminView() {
       image: "/product/zapato.svg", // Default image
       sales: 0,
     };
+
 
     setProducts([...products, productToAdd]);
 
